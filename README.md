@@ -1,7 +1,4 @@
 # **Finding Lane Lines on the Road**
----
-
-**Finding Lane Lines on the Road**
 
 The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
@@ -23,7 +20,7 @@ My pipeline consisted of 5 steps. Steps were completed in the following order:
 5. apply hough
 6. combine hough lines with original image to produce result
 
-[image1]: ./example.png "Example"
+![image1](./example.png) "Example"
 
 I modified the draw_line function to include the following steps:
 for each proposed line piece, the slope is calculated.
